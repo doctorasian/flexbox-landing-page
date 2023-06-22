@@ -1,0 +1,197 @@
+*{
+    color: white;
+}
+
+button {
+    color: black;
+    border-radius: 15px;
+
+}
+
+div {
+
+    /*border: 2px dotted blue;*/
+    display: flex;
+    flex: none;
+}
+
+body {
+    background-color: #282828;
+}
+
+/*Contents of Container One*/
+.container-one {
+    height: 1000px;
+    width: min(195ch, 100% - 4rem);
+    margin-inline: auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #282828;
+}
+
+.nav {
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-left {
+    justify-content: center;
+    align-items: center;
+    flex: none;
+}
+
+.nav-right {
+    width: 850px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-right a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-left {
+    height: 90%;
+    width: 600px;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.menu-left h1 {
+    font-size: 90px;
+    height: 130px;
+}
+
+.menu-left p {
+    font-size: 30px;
+    height: 100px;
+}
+
+.textbox {
+    width: 100%;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.textbox button {
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.menu-right {
+    height: 900px;
+    width: auto;
+    align-items: center;
+}
+
+.menu-right img {
+    min-width: 100px;
+    max-width: 100%;
+    height: 70%;
+    border-radius: 15px;
+
+}
+
+/*End of Container One*/
+
+
+
+/*Contents of Container Two*/
+.container-two {
+    height: 700px;
+    width: min(195ch, 100% - 4rem);
+    margin-inline: auto;
+    align-items: center;
+    background-color: #282828;
+
+
+}
+
+.image-box {
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0c003286;
+
+    border-radius: 24px;
+
+}
+
+.image-box img {
+    border: 2px solid black;
+    min-width: 100px;
+    height: 50%;
+}
+
+/*End of Container Two*/
+
+
+
+/*Contents of Container Three*/
+.container-three {
+    height: 300px;
+    width: min(195ch, 100% - 4rem);
+    margin-inline: auto;
+    background-color: #3500D3;
+    align-items: center;
+
+    border-radius: 24px;
+
+}
+
+.quote-box {
+    height: 50%;
+    width: 100%;    
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.quote-box h1 {
+    font-size: 50px;
+    height: 20px;
+}
+
+/*End of Container Three*/
+
+
+/*Contents of Container Four*/
+.container-four {
+    height: 500px;
+    width: min(195ch, 100% - 4rem);
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+
+}
+
+.cool-box {
+    height: 40%;
+    width: 75%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #190061;
+
+    border-radius: 24px;
+
+
+}
+
+.cool-box button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*End of Container Four*/
+
+footer {
+    display: flex;
+    justify-content: center;
+}
